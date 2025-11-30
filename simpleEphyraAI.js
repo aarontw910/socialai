@@ -1,12 +1,12 @@
-// simpleBellaAI.js - Simplified Bella AI, specifically for testing the chat interface
+// simpleEphyraAI.js - Simplified Bella AI, specifically for testing the chat interface
 // Removed complex module dependencies, focusing on chat functionality
 
-class SimpleBellaAI {
+class simpleEphyraAI {
     static instance = null;
 
     static async getInstance() {
         if (this.instance === null) {
-            this.instance = new SimpleBellaAI();
+            this.instance = new simpleEphyraAI();
             await this.instance.init();
         }
         return this.instance;
@@ -162,7 +162,7 @@ class SimpleBellaAI {
     getCurrentConfig() {
         return {
             useCloudAPI: false,
-            provider: { name: 'simple', model: 'SimpleBellaAI' },
+            provider: { name: 'simple', model: 'simpleEphyraAI' },
             mode: this.currentMode,
             isConfigured: true,
             isInitialized: this.isInitialized
@@ -175,9 +175,9 @@ class SimpleBellaAI {
     }
 }
 
-// Expose SimpleBellaAI as a global variable
-window.SimpleBellaAI = SimpleBellaAI;
+// Expose simpleEphyraAI as a global variable
+window.simpleEphyraAI = simpleEphyraAI;
 // Also expose as BellaAI for compatibility
-window.BellaAI = SimpleBellaAI;
+window.BellaAI = simpleEphyraAI;
 
-console.log('SimpleBellaAI loaded successfully');
+console.log('simpleEphyraAI loaded successfully');

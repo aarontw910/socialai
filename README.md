@@ -1,7 +1,7 @@
 <div align="center">
-  <img width="256" height="384" alt="Bella AI" src="https://github.com/user-attachments/assets/fc8f2ba4-43c5-4865-90d9-8408f1c23edf" />
+  <img width="256" height="384" alt="EPHYRA AI" src="" />
   
-  # Bella AI
+  # EPHYRA AI
   
   **Your digital companion, awakening now** ✨
   
@@ -18,7 +18,7 @@
 ### One-Click Launch
 ```bash
 # Clone the project
-cd Bella
+cd EPHYRA
 
 # Install dependencies
 npm install
@@ -30,7 +30,7 @@ npm run download
 npm start
 ```
 
-Visit `http://localhost:8081` to start communicating with Bella!
+Visit `http://localhost:8081` to start communicating with EPHYRA!
 
 ### System Requirements
 - Node.js 22.16.0+
@@ -45,7 +45,7 @@ Visit `http://localhost:8081` to start communicating with Bella!
 - **🎤 Voice Perception**: Voice recognition based on Whisper ASR
 - **🎬 Visual Expression**: Multiple video random playback with elegant cross-fading
 - **🎨 User Interface**: Elegant interaction interface and loading animations
-- **⚙️ AI Core Architecture**: Singleton pattern BellaAI class and modular design
+- **⚙️ AI Core Architecture**: Singleton pattern EPHYRAAI class and modular design
 - **🌐 Web Service**: HTTP server, CORS support, one-click startup
 - **📱 Responsive Design**: Elegant interface adapting to different screen sizes
 - **🔧 Model Management**: Automatic download and management of AI models
@@ -70,7 +70,7 @@ Visit `http://localhost:8081` to start communicating with Bella!
 ## 🏗️ Technical Architecture
 
 ### Core Design Principles
-- **AI Native**: AI is not a tool, but the blueprint for Bella's mind
+- **AI Native**: AI is not a tool, but the blueprint for EPHYRA's mind
 - **Modular Design**: Highly decoupled component architecture
 - **Elegant Implementation**: Code as art, pursuing simplicity and aesthetics
 - **Emotion-Driven**: Product design centered on emotional connection
@@ -78,7 +78,7 @@ Visit `http://localhost:8081` to start communicating with Bella!
 ### Architecture Diagram
 ```mermaid
 mindmap
-  root((Bella))
+  root((EPHYRA))
     (Perception Layer)
       (Voice Recognition ASR)
       (Visual Processing)
@@ -104,7 +104,7 @@ mindmap
 ## 📁 Project Structure
 
 ```
-Bella/
+EPHYRA/
 ├── 📄 index.html          # Main page
 ├── 🎨 style.css           # Style file
 ├── ⚡ main.js             # Main logic

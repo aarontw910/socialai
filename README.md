@@ -1,5 +1,5 @@
 <div align="center">
-  <img width="256" height="384" alt="EPHYRA AI" src="" />
+  <img width="256" height="384" alt="EPHYRA AI" src="https://www.ephyra.ai/assets/ephyra.jpeg" />
   
   # EPHYRA AI
   

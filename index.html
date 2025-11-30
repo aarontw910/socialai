@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bella - Your AI Companion</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="chatStyles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+    <div id="loading-screen">
+        <img src="Bellaicon/Generated image.webp" alt="Loading Bella...">
+    </div>
+
+    <div class="video-container">
+        <video autoplay muted class="bg-video active" id="video1">
+            <source src="videos/3ds.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <video muted class="bg-video" id="video2">
+            <source src="" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
+    <div class="content-overlay">
+
+        <div class="transcript-container">
+            <p id="transcript"></p>
+        </div>
+
+        <footer class="bottom-bar">
+            <button class="mic-button" id="mic-button" aria-label="Start Listening">
+                <i class="fas fa-microphone"></i>
+            </button>
+        </footer>
+
+        <div class="chat-control-panel">
+            <button id="chat-toggle-btn" class="control-btn primary">
+                <i class="fas fa-comments"></i>
+                <span>Chat</span>
+            </button>
+            <button id="chat-test-btn" class="control-btn secondary">
+                <i class="fas fa-paper-plane"></i>
+                <span>Test</span>
+            </button>
+        </div>
+
+    </div>
+
+    <script type="module" src="core.js"></script>
+    <script type="module" src="chatInterface.js"></script>
+    <script type="module" src="script.js"></script>
+</body>
+</html>
